@@ -1,0 +1,44 @@
+item {
+  id: 1
+  name: 'dough maker'
+}
+
+item {
+  id: 2
+  name: 'pizza chef'
+}
+
+item {
+  id: 3
+  name: 'manager'
+}
+
+item {
+  id: 4
+  name: 'other chef'
+}
+
+item {
+  id: 5
+  name: 'sweeper'
+}
+
+item {
+  id: 6
+  name: 'pizza going into oven'
+}
+
+item {
+  id: 7
+  name: 'pizza in oven'
+}
+
+item {
+  id: 8
+  name: 'other item going into oven'
+}
+
+item {
+  id: 9
+  name: 'unknown object'
+}
