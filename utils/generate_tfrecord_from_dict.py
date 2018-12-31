@@ -43,7 +43,7 @@ def class_text_to_int(row_label):
     if row_label in label_dict_keys:
         return label_dict[row_label]
     else:
-        return None
+        return len(label_dict_keys) + 1
 
 
 ## Generate labelmap.pbtxt file
@@ -52,8 +52,8 @@ newfile = 'training/labelmap.pbtxt'
 with open(newfile, "w") as file:
     for key, value in label_dict.items():
         file.write("item {\n")
-        file.write("  id: " + value + "\n")
-        file.write("  name: '" + key + "'\n")
+        file.write("  id: " + str(value) + "\n")
+        file.write("  name: '" + str(key) + "'\n")
         file.write("}\n\n")
 
 
